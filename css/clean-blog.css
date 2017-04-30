@@ -387,7 +387,7 @@ form .row:first-child .floating-label-form-group {
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
 .pager .disabled > span {
-  color: #777777;
+  color: #0085A1;
   background-color: #333333;
   cursor: not-allowed;
 }
