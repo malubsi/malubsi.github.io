@@ -63,7 +63,146 @@
         <div class="container">
             <div class="row">
                 <div style="text-align: justify" class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    
+                    <p>
+                        O objetivo desta publicação é ler, avaliar e discutir sobre o artigo  
+                        <a href="https://medium.com/desenvolvimento-%C3%A1gil/a-nova-metodologia-69b8f8a379c7">A Nova Metodologia</a> 
+                        de Martin Fowler. Este artigo tem o propósito de explicar sobre desenvolvimento ágil: como ele surgiu, 
+                        quais eram os objetivos que este visava atender, quando deve ser usado, entre outros.
+                        Este movimento surgiu por volta dos anos 90 como fruto do esforço de várias pessoas 
+                        que procuravam uma nova abordagem para o desenvolvimento de software. 
+                    </p>
+                    <p>
+                        O desenvolvimento de software é frequentemente caracterizado pela frase "desenvolver e corrigir". 
+                        Dado que normalmente, o software é feito as pressas, baseado em decisões de curto prazo e com pouco planejamento.
+                        (Tipo eXtreme Go Horse: "Pensou, não é XGH.") Como fruto desse desenvolvimento... surgem os BUGS.
+                        O que acarreta em mais um monte de consequência, como: testes pós-desenvolvimento (o que deveria ter 
+                        sido feito junto ao desenvolvimento), muita refatoração de código, etc.
+                    </p>
+                    <p>
+                        Martin Fowler chama as metodologias tradicionais de desenvolvimento de Metodologias de Engenharia.
+                        <blockquote>
+                            As metodologias de engenharia existem há muito tempo. Elas são conhecidas não por serem um tremendo sucesso. 
+                            Elas são ainda menos conhecidas por serem populares. O criticismo mais frequente dessas metodologias é que elas
+                             são burocráticas. Existem tantas coisas a se fazer para seguir a metodologia que todo o ritmo do desenvolvimento de software diminui.
+                        </blockquote>
+                        E para "combater" esse tipo de metodologia engessada de desenvolvimento, eis que surge o desenvolvimento ágil.
+                        Onde o foco passa a ser mais no código e nas entregas do que na documentação, mais na adaptação as necessidades do cliente 
+                        do que na previsibilidade do que foi acordado na documentação, mais as pessoas envolvidas no desenvolvimento do que nos processos a serem utilizados.
+                    </p>
+                    <p>
+                        Para explorar melhor, ele faz comparativos entre as metodologias de engenharia e as ágeis sob os tópicos:
+                        <ol>
+                            <li>
+                                Previsível versus Adaptativo
+                            </li>
+                            <li>
+                                Colocando Pessoas em Primeiro Lugar
+                            </li>
+                            <li>
+                                O Processo Autoadaptativo
+                            </li>
+                            <li>
+                                Sabores de Desenvolvimento Ágil
+                            </li>
+                            <li>
+                                Você deve ser ágil?
+                            </li>
+                        </ol>
+                    </p>
+                    <h3>
+                        Análise Geral
+                    </h3>
+                    <p>
+                        Durante o desenvolvimento, quer seja de um produto de engenharia ou um software, existem duas atividades fundamentalmente 
+                        diferentes: O projeto que é difícil de prever e necessita de pessoas criativas e caras, e a construção que é fácil de prever. 
+                        Uma vez que o projeto está pronto, pode-se planejar a construção. Uma vez que o plano de construção está concluído, podemos 
+                        então lidar com a construção de uma forma muito mais previsível. 
+                    </p>
+                    <p> No desenvolvimento de software a codificação, equivalente a construção,
+                        demanda 15% do tempo total de desenvolvimento, onde os outros 85% ficam na etapa de design. Só esse fator já justifica a 
+                        utilização de uma metodologia de desenvolvimento diferenciada, dado que nos projetos de engenharia, de onde surgiu as metodologias 
+                        tradicionais de desenvolvimento de software, 10% do tempo é para o planejamento e os outros 90% são na construção.
+                    </p>
+                    <p>
+                        Dito isso, processos criativos não são fáceis de planejar, portanto, previsibilidade pode ser algo impossível de alcançar. Mas mesmo 
+                        abrindo mão da previsibilidade, não significa aceitar o caos, e sim encontrar um processo que lhe de controle sobre a imprevisibilidade, 
+                        e a isso chamamos adaptabilidade. Para não nos perdermos em um mundo imprevisível o feedback é um poderoso aliado, e a melhor forma de 
+                        receber esse feedback é através do desenvolvimento iterativo.
+                        <blockquote>
+                            O ponto chave do desenvolvimento iterativo é produzir frequentemente versões operacionais de um sistema final que tem um subconjunto 
+                            de funcionalidades necessárias. Estes entregáveis do sistema são pequenos em se tratando de funcionalidades, mas, no entanto, devem 
+                            ser fiéis às demandas do sistema final. Eles precisam ser totalmente integrados e testados tão cuidadosamente quanto uma entrega final.
+                        </blockquote>
+                        <p>
+                            O desenvolvimento iterativo é um dos pontos chaves do desenvolvimento ágil. É onde é colocado a prova o entendimento do que realmente foi 
+                            requisitado, e se esta funcionando conforme deveria. É a cola entre o cliente e a equipe de desenvolvimento. Um processo adaptativo pede um 
+                            cliente diferente, já que o preço e as entregas dependem da participação do cliente durante todo o desenvolvimento do software.
+                        </p>
+                        <p>
+                            Com a participação mais ativa do cliente, a satisfação com o produto final e o controle de risco são quase sempre uma certeza.
+                        </p>
+                        <blockquote>
+                            Um bom projeto previsível seguirá o plano, um bom projeto ágil construirá algo diferente e melhor que o plano original previa.
+                        </blockquote>
+                    </p>
+                    <p>
+                        Além da participação do cliente ser fundamental, o envolvimento de cada pessoa no desenvolvimento não é considerado como algo substituível.
+                        O conceito de Taylorismo (cada um tem uma função especifica a desempenhar, e não cabe a ela determinar como será a melhor forma, ela só 
+                        precisa fazer da maneira como foi orientada) não se aplica nesse cenário, dado que o desenvolvedor tem que ter a possibilidade de definir 
+                        como conduzir seu trabalho.
+                    </p>
+                    <p>
+                        Um outro fator marcante do desenvolvimento ágil é a ausência de uma figura autoritária gerencial. Não significa que não existe uma pessoa 
+                        na equipe que exerça um papel gerencial, mas sim que todos na equipe podem e devem ter poder de decisão técnica sobre aspectos do projeto. 
+                        Além disso requer um conhecimento constante do negócio.
+                        <blockquote>
+                            Não há nada mais frustrante para um desenvolvedor do que ver seu trabalho duro ser desperdiçado. Dessa forma, é importante garantir que 
+                            há boa qualidade de conhecimento de negócio, que esse conhecimento esteja disponível para o desenvolvedor e tenha qualidade o suficiente 
+                            para que o(a) desenvolvedor(a) possa confiar nele.
+                        </blockquote>
+                    </p>
+                    <p>
+                        Ao final de cada iteração do desenvolvimento a equipe pode se reunir e se perguntar, por exemplo:
+                        <ul>
+                            <li>
+                                O que fizemos bem?
+                            </li>
+                            <li>
+                                O que aprendemos?
+                            </li>
+                            <li>
+                                O que podemos melhorar?                                
+                            </li>
+                            <li>
+                                O que está nos atrapalhando?
+                            </li>
+                        </ul>
+                        Com isso gerará um processo autoadaptativo ideal para aquela equipe de trabalho. Cada equipe possui um ritmo diferente, desta forma é possivel que 
+                        não se encontre uma metodologia corporativa, dado que dentro da corporação existem diversas metodologias adaptadas a cada equipe de trabalho.
+                    </p>
+                    <p>
+                        Dentro da esfera de desenvolvimento ágil existem diversas abordagens mais específicas como: Extreme Programming(XP), Scrum, Crystal, etc. Cada uma com 
+                        técnicas e comunidades específicas.
+                    </p>
+                    <h3>
+                        Conclusão
+                    </h3>
+                    <p>
+                        Para que o desenvolvimento ágil funcione, todas as partes envolvidas devem estar comprometidas com o projeto. Tanto o cliente quanto a equipe devem compreender 
+                        o negócio, fazer reuniões periodicas para alinhar o desenvolvimento, a lógica e o negócio. A comunicação deve ser a prioridade, porque com a ausência dela o projeto 
+                        sofrerá no resultado final. Deverá haver o comprometimento dos desenvolvedores, em dar o melhor, procurar saber se está atendendo ao que foi proposto, não ter arrogância 
+                        e perguntar caso algo não esteja claro, entre outros. O cliente deve compreender as dores dos desenvolvedores assim como estes devem compreender as dores do cliente.
+                        A equipe deve sempre buscar melhorar nos pontos que foram falhos, e propor novas soluções para pontos que deixaram a desejar.
+                    </p>
+                    <p>
+                        Para concluir, acredito que os maiores problemas na utilização de processos ágeis para desenvolvimento de software está na mentalidade das pessoas hoje em dia.
+                        Para que um software seja desenvolvido na metodologia ágil é necessário que você dê o seu melhor e se preocupe com o projeto como se ele fosse seu. E infelizmente, a maioria 
+                        das pessoas só se preocupa em fazer o que lhe foi especificamente atribuído, além de não se preocupar com a qualidade que está fazendo e nem na implicância do seu 
+                        desenvolvimento no produto final. Ao invés de pensar que seu trabalho pode estar sendo utilizado para facilitar o trabalho de alguém, pensam "Estou trabalhando como um condenado 
+                        para receber uma mixaria, enquanto colaboro para que o cliente ganhe muito dinheiro as custas do que eu desenvolvi". Eu sou completamente a favor do desenvolvimento ágil, 
+                        acredito que foi um grande aliado para desenvolver softwares que atendam melhor as expectativas dos clientes, que muitas das vezes não tem uma ideia concisa do que realmente querem.
+                    </p>
+                    <p style="font-style: italic">Obs.: Todas as quotes são cópias exatas de partes do texto referente ao estudo desse post.</p>
                 </div>
             </div>
         </div>
