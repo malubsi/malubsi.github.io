@@ -189,10 +189,17 @@ hr.small {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
     font-size: 80px;
+    text-shadow: black 0.1em 0.1em 0.2em;
   }
 }
 .intro-header .post-heading h1 {
   font-size: 35px;
+  text-align: center;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+.intro-header .post-heading span {
+  text-align: center;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 .intro-header .post-heading .subheading,
 .intro-header .post-heading .meta {
