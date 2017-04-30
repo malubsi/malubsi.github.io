@@ -79,7 +79,7 @@ hr.small {
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: #0085A1;
   }
   .navbar-custom .nav li a {
     color: white;
@@ -87,7 +87,7 @@ hr.small {
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: #0085A1;
   }
   .navbar-custom .nav li ul.dropdown-menu a {
     color: #333333;
@@ -387,7 +387,7 @@ form .row:first-child .floating-label-form-group {
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
 .pager .disabled > span {
-  color: #0085A1;
+  color: #777777;
   background-color: #333333;
   cursor: not-allowed;
 }
